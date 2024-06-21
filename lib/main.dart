@@ -55,7 +55,7 @@ class _SplashScreenState extends State<SplashScreen> {
             begin: Alignment.center,
             end: Alignment.center,
 
-            colors: [Color.fromARGB(255, 146, 206, 152),Color.fromARGB(255, 206, 228, 183),]
+            colors: [Color.fromARGB(255, 250, 253, 250),Color.fromARGB(255, 252, 253, 251),]
           ),
         ),
         child: Column(
@@ -65,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Column(
               children: [
                 Image.asset(
-                  "assets/mpn_logo.jpg",
+                  "assets/FD_logo.png",
                   height: 300.0,
                   width: 300.0,
                 ),
@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
             bottomRight: Radius.circular(20),
           ),
         ),
-        backgroundColor: const Color.fromARGB(255, 136, 210, 139),
+        backgroundColor: Color.fromARGB(255, 92, 201, 95),
       ),
       body: Shimmer.fromColors(
         child: const HomePage(),
